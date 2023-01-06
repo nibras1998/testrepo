@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(140,189,106);
+}
+#container{
+    display: flex;
+    text-align: left;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+#successmsg{
+    width: 200px;
+    font-size: small;
+    height: 32px;
+    line-height: 32px;
+   background-color: rgb(99,162,250);
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 192px;
+    height: 30px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: rgb(107,186,103);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(64, 125, 60);
+}
